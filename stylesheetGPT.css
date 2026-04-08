@@ -216,6 +216,28 @@ section{
   background:white;
   color:#3b2f5a;
 }
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags span,
+.tag_link {
+  background: #e6d6ff;
+  color: #4b2e83;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none; 
+  transition: 0.3s;
+}
+
+
+.tag_link:hover {
+  background: #cbb3ff;
+  transform: scale(1.05);
+}
 
 /* CONTATO */
 .contato p{margin:5px 0;}
